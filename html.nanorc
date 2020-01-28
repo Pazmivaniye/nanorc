@@ -1,0 +1,4 @@
+syntax "HTML" "\.html?$" "\.php$"
+color brightgreen "<[^[:space:]>]*" ">"
+color green start="<!--" end="-->"
+color ,green "	" "\s+$"

@@ -1,0 +1,10 @@
+syntax "LaTeX" "\.tex$" "\.cls$" "\.sty$" "\.bib$"
+color brightgreen "\\([A-Za-z%@]*|\[|\]|\"|~|'|\^|`|#|=|\.|!|\||;|,)"
+# this is a bit of a hack (note that nanorc looks gray, so foreground has been left blank)
+color ,black "\\\\([A-Za-z0-9_%&$@]*|\[|\]|\"|~|'|\^|`|#|=|\.)" "\\([_%&$]|\{|\}|#)[A-Za-z_0-9]+"
+color brightgreen "\\\\"
+#color brightgreen "[&_$]|\{|\}|\^|#"
+color brightgreen "\\([_%&$]|\{|\}|#)"
+#color black,green "\\warn\b"
+color green "%.*"
+color ,green "	" "\s+$"

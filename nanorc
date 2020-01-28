@@ -1,0 +1,18 @@
+set nowrap
+set speller "aspell -x -c"
+set guidestripe 81
+include "~/Documents/nanorc/bash.nanorc"
+include "~/Documents/nanorc/c.nanorc"
+include "~/Documents/nanorc/cython.nanorc"
+include "~/Documents/nanorc/default.nanorc"
+include "~/Documents/nanorc/erl.nanorc"
+include "~/Documents/nanorc/html.nanorc"
+include "~/Documents/nanorc/matlab.nanorc"
+include "~/Documents/nanorc/metal.nanorc"
+include "~/Documents/nanorc/nanorc.nanorc"
+include "~/Documents/nanorc/objc.nanorc"
+include "~/Documents/nanorc/paz.nanorc"
+include "~/Documents/nanorc/python.nanorc"
+include "~/Documents/nanorc/rust.nanorc"
+include "~/Documents/nanorc/tex.nanorc"
+include "~/Documents/nanorc/toml.nanorc"

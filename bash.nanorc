@@ -1,0 +1,3 @@
+syntax "Bash" "\.sh$"
+color green "^\s*#.*"
+color ,green "	" "\s+$"

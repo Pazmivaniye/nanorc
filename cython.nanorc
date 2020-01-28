@@ -1,0 +1,6 @@
+syntax "Cython" "\.pyx$"
+color brightgreen "\b(c(p|type)?def|cimport|extern)\b"
+color brightgreen "\b(assert|break|class|continue|del|finally|global|lambda|pass|yield|in|is|not|or|and|return|try|raise|except|with|self|def|class|import|as|for|while|if|elif|else|from|None|True|False)\b" "\b__[A-Za-z0-9_]+__\b"
+color brightgreen "@[A-Za-z_][A-Za-z_0-9]*"
+color green "#.*"
+color ,green "	" "\s+$"

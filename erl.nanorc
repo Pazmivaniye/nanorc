@@ -1,0 +1,3 @@
+syntax "Erlang" "\.erl$"
+color green "%.*"
+color ,green "	" "\s+$"

@@ -1,0 +1,5 @@
+syntax "MATLAB" "\.m$"
+color green "%.*" "\.\.\..*"
+color green start="%\{" end="%\}"
+color brightgreen "^\s*%%.*"
+color ,green "	" "\s+$"

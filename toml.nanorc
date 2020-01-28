@@ -1,0 +1,4 @@
+syntax "TOML" "\.toml$"
+color brightgreen "\[(package|lib|dependencies)\]"
+color green "#.*$"
+color ,green "	" "\s+$"

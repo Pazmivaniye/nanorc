@@ -1,0 +1,3 @@
+syntax "NanoRC" "\.nanorc$"
+color green "^\s*#.*"
+color ,green "	" "\s+$"
