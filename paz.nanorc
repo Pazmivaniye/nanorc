@@ -1,4 +1,4 @@
 syntax "PAZ" "\.paz$"
-color brightgreen "\b(namespace|return|class|with|and|or|for|if|while|try|catch|else|true|false|in|local|static|const|auto|self|cast|from)\b"
+color brightgreen "\b(import|namespace|return|class|with|and|or|for|if|while|try|catch|else|true|false|in|local|static|const|auto|self|cast|from)\b"
 color green "#.*"
 color ,green "	" "\s+$"
