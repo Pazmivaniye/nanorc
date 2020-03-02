@@ -1,3 +1,4 @@
 syntax "NanoRC" "\.nanorc$"
+color brightgreen "^((un)?(set|bind)|include|syntax|i?color)\b"
 color green "^\s*#.*"
 color ,green "	" "\s+$"
