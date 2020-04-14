@@ -1,2 +1,3 @@
 syntax "default"
-color ,green "	" "\s+$"
+color white,black ".*"
+color ,white "	" "\s+$"
