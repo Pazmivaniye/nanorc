@@ -1,5 +1,5 @@
 syntax "Bash" "\.sh$"
 color white,black ".*"
 color green "^\s*#.*"
-color brightwhite "^#!.+$"
+color brightgreen "^#!.+$"
 color ,white "	" "\s+$"
