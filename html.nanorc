@@ -1,5 +1,5 @@
 syntax "HTML" "\.html?$" "\.php$"
 color white,black ".*"
 color brightwhite "<[^[:space:]>]*" ">"
-color green start="<!--" end="-->"
+color brightblack start="<!--" end="-->"
 color ,white "	" "\s+$"

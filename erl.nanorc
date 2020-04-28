@@ -1,4 +1,4 @@
 syntax "Erlang" "\.erl$"
 color white,black ".*"
-color green "%.*"
+color brightblack "%.*"
 color ,white "	" "\s+$"
