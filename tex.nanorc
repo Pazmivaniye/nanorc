@@ -1,6 +1,6 @@
 syntax "LaTeX" "\.tex$" "\.cls$" "\.sty$" "\.bib$"
 color white,black ".*"
-color brightwhite "\\([A-Za-z%@]*|\[|\]|\"|~|'|\^|`|#|=|\.|!|\||;|,)"
+color brightwhite "\\([A-Za-z%@]*|\[|\]|\"|~|'|\^|`|#|=|\.|!|\||;|,|:)"
 color brightwhite "\\left[\([\<\|.]" "\\middle[\|.]" "\\right([\)\>\|.]|\])"
 color white,black "\\\\([A-Za-z0-9_%&$@]*|\[|\]|\"|~|'|\^|`|#|=|\.)" "\\([_%&$]|\{|\}|#)[A-Za-z_0-9]+"
 color brightwhite "\\\\"
