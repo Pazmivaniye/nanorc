@@ -1,4 +1,4 @@
-syntax "HTML" "\.html?$" "\.php$"
+syntax "HTML" "\.html?$"
 color white,black ".*"
 color brightwhite "<[^[:space:]>]*" ">"
 color brightblack start="<!--" end="-->"
