@@ -1,6 +1,6 @@
 syntax "Julia" "\.jl$"
 color white,black ".*"
-color brightwhite "\b(if|elseif|else|end|using|import|mutable|struct|export|function|for|return|while|in|undef)\b"
+color brightwhite "\b(if|elseif|else|end|using|import|mutable|struct|export|function|for|return|while|in|undef|true|false)\b"
 color brightwhite "@[A-Za-z_][A-Za-z_0-9]*"
 color brightblack "#.*"
 color brightwhite "^#!.+$"
