@@ -1,0 +1,5 @@
+syntax "Fortran" "\.f90$"
+color white,black ".*"
+color brightwhite "\b(subroutine|implicit|if|else|endif|return|end|none|call)\b"
+color brightblack "!.*"
+color ,white "	" "[[:space:]]+$"
