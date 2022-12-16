@@ -1,4 +1,6 @@
+set morespace
 set nowrap
 set speller "aspell -x -c"
 set guidestripe 81
+unbind ^J all
 include "~/Documents/nanorc/*.nanorc"
